@@ -6,7 +6,7 @@
 ### For Linux:
     1.First run the "requirements.sh" script in your bash terminal:
 ```bash
-$ chmod +x
+$ chmod +x requirements.sh
 $ ./requirements.sh
 $ git clone https://github.com/AakashSundarS/Profanity-Checker.git
 ```

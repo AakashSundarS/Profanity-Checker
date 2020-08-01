@@ -4,26 +4,26 @@
 # Dependencies: 
     1.First run the "requirements.sh" script in your bash terminal like this:
 ```bash
-        $ ./requirements.sh
+$ ./requirements.sh
 ```
 ###                                or
     Run the following commands:
 ```bash
-        $ pip install profanity-filter
-        $ python -m spacy download en
+$ pip install profanity-filter
+$ python -m spacy download en
 ```
 
 # Usage:
     First change your directory into the folder...
 ```bash
-        $ cd Profanity-Checker/
+$ cd Profanity-Checker/
 ```
 
 ### Example Program:
 ```python    
-    from profanityChecker import isProfane
+from profanityChecker import isProfane
     
-    para = input("Enter any string: ")
-    print(isProfane(para))
-    # Output: True
+para = input("Enter any string: ")
+print(isProfane(para))
+# Output: True
 ```

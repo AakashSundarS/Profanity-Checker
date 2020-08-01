@@ -9,7 +9,7 @@ $ git clone https://github.com/AakashSundarS/Profanity-Checker.git
 $ chmod +x requirements.sh
 $ ./requirements.sh
 $ cd Profanity-Checker/
-$ python ./profanityChecker.py
+$ python3 ./profanityChecker.py
 ```
 
 ### For Windows and Mac:

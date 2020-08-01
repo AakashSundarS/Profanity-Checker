@@ -1,11 +1,9 @@
 # Profanity-Checker
-    This is a small upgrade to the already existing PyPI package "profanity-filter"...
+This is a small upgrade to the already existing PyPI package "profanity-filter"...
 
 #  Usage and Installation: 
 
 ### For Linux:
-
-Run the following commands in your bash terminal:
 ```bash
 $ git clone https://github.com/AakashSundarS/Profanity-Checker.git
 $ chmod +x requirements.sh
@@ -15,8 +13,6 @@ $ python ./profanityChecker.py
 ```
 
 ### For Windows and Mac:
-
-Run the following commands:
 ```bash
 $ pip install profanity-filter
 $ python -m spacy download en

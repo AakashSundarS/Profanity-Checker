@@ -1,22 +1,29 @@
 # Profanity-Checker
     This is a small upgrade to the already existing PyPI package "profanity-filter"...
 
-# Dependencies: 
-    1.First run the "requirements.sh" script in your bash terminal like this:
+# Installation: 
+
+### For Linux:
+    1.First run the "requirements.sh" script in your bash terminal:
 ```bash
+$ chmod +x
 $ ./requirements.sh
+$ git clone https://github.com/AakashSundarS/Profanity-Checker.git
 ```
-###                                or
+
+### For Windows and Mac:
     Run the following commands:
 ```bash
 $ pip install profanity-filter
 $ python -m spacy download en
+$ git clone https://github.com/AakashSundarS/Profanity-Checker.git
 ```
 
 # Usage:
     First change your directory into the folder...
 ```bash
 $ cd Profanity-Checker/
+$ python ./profanityChecker.py
 ```
 
 ### Example Program:

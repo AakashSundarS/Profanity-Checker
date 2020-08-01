@@ -1,4 +1,4 @@
-# Profanity-Checker
+# About:
 This is a small upgrade to the already existing PyPI package "profanity-filter"...
 
 #  Usage and Installation: 

@@ -24,7 +24,7 @@ $ python ./profanityChecker.py
 
 ## Example Program:
 ```python    
-from profanityChecker import isProfane
+from profanityChecker import isProfane, advCensor
     
 raw_para = input('Type a message: ')
 if isProfane(raw_para):

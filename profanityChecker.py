@@ -29,7 +29,19 @@ def isProfane(raw_para):
         else:
             return True
 
+def advCensor(raw_para):
+    para = pf.censor(raw_para)
+    if para != raw_para:
+        return para
+    else:
+        para = pf.censor(crossCheck(raw_para))
+        return para
+    
 if __name__ == "__main__":
     raw_para = input('Type a message: ')
     if isProfane(raw_para):
         print("Warning!... Profanity Detected!...")
+        para = advCensor(raw_para)
+        print(para)
+    else:
+        print(para)

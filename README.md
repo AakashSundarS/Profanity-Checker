@@ -23,7 +23,11 @@ $ cd Profanity-Checker/
 ```python    
 from profanityChecker import isProfane
     
-para = input("Enter any string: ")
-print(isProfane(para))
-# Output: True
+raw_para = input('Type a message: ')
+if isProfane(raw_para):
+    print("Warning!... Profanity Detected!...")
+    para = advCensor(raw_para)
+    print(para)
+else:
+    print(para)
 ```
